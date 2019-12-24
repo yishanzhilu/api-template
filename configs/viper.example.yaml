@@ -1,0 +1,10 @@
+runmode: debug
+addr: :8080
+mysql:
+    username: root
+    password: 
+    databasename: tcp(localhost:3306)/databasename
+    parameter: parseTime=true
+redis:
+    password: 
+    url: localhost:6379

@@ -16,7 +16,7 @@ import (
 // }
 func Boot() {
 
-	initConfig("viper")
+	initConfig("viper.example")
 	initLogger()
 	initHTTPClient()
 	var wg sync.WaitGroup
