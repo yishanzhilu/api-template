@@ -31,8 +31,8 @@ We use Hexagonal Architecture, check /examples/hex for more information.
 2. get air
 ```bash
 curl -fLo ./bin/air \
-    https://raw.githubusercontent.com/cosmtrek/air/master/bin/{linux, darwin, windows}/air
-chmod +x ~/air
+    https://raw.githubusercontent.com/cosmtrek/air/master/bin/{linux,darwin,windows}/air
+chmod +x ./bin/air
 ```
 
 3. make dev
